@@ -1,0 +1,40 @@
+
+@media(orientation: portrait){
+body{
+        background-color: orange;
+}
+h1{
+    color: blue;
+}
+.row{ flex-wrap: wrap;}
+
+.col{
+    background-color: blue;
+    height: 40vh;
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+}
+
+}
+
+@media(orientation: landscape){
+body{
+    background-color: aquamarine;
+}
+h1{color: rgb(226, 10, 10);}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.col{
+    width: 40%;
+    height: 50vh;
+    background-color: black;
+}
+
+
+
+}
+
+

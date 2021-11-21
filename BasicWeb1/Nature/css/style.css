@@ -1,0 +1,794 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* -------- oriantatoin portrait or Mobile phone ---- */
+
+@media(orientation: portrait)
+
+{
+
+.header{
+    display: flex;
+}
+.header ul li{
+    overflow: hidden;
+    display: none;
+}
+
+/* --- about --- */
+
+.about{
+    width: 100%;
+    
+}
+.about .contianer{
+    margin: 0;
+    padding: 1rem;
+    flex-wrap: wrap-reverse;
+    
+
+}
+.about .contianer .describ{
+    width: 100%;
+    margin: auto;
+}
+
+/* --------------- team --------------- */
+
+.teams{
+    width: 100%; 
+    padding: 0;
+    margin: 0;
+}
+.card-team {
+    flex-wrap: wrap;
+    
+    }
+.mian-team{
+    width: 90%;
+    
+}
+.mian-team .btn{
+    padding: 0.5rem ;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+/* -------------- projecjt ---------------- */
+
+.project{
+    width: 100%;
+}
+.project .card-pj{
+    flex-wrap: wrap;
+}
+.card-pj .pj{
+    width: 99%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.pj .middle{
+    position: relative;
+    text-align: center;
+    top: -12rem;
+    height: 20vh;
+    opacity: 0;
+}
+.card-pj h2{
+   
+    position: relative;
+    top: -7.5rem;
+}
+.card-pj .dsc-pj ,.know{
+ position: relative;
+ top: -7rem;
+}
+.pj .middle:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -12rem;
+    color: white;
+    opacity: 100%;
+    transition: 0.6s;
+    font-size: 0.5rem;
+    cursor: pointer;
+   
+}
+
+/* ------------------- plants -------------- */
+
+.plants{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.plants h1{
+    text-align: center;
+}
+.plants .contianer-plant{
+    flex-wrap: wrap-reverse;
+    margin: auto;
+}
+.contianer-plant .content-plant{
+    padding: 2rem;
+    width: 99%;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+}
+.content-plant .btn-plant{
+    padding: 0.5rem ;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+}
+.btn-plant:hover{
+    transform: scale(1.1,1.1);
+    cursor: progress;
+    transition-duration: 0.5s;
+}
+.plants .contianer-plant img{
+    width: 99%;
+    height: 45vh;
+    border-radius: 1rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 94%, 51% 94%, 48% 100%, 43% 94%, 0 94%);
+}
+.plants .heading{
+    border-radius: 1rem 1rem 0 0;
+    color: white;
+    font-style: italic;
+    width: 88%;
+    padding: 0.5rem;
+    font-size:large;
+    margin:1rem auto;
+    background-color: rgba(153, 205, 50, 0.966);
+    clip-path: polygon(0 0, 61% 0, 66% 100%, 0 100%);
+
+
+}
+.plants .card-plants{
+    
+    width: 99%;
+    flex-wrap: wrap;
+}
+.plants .card-plants .card-box{
+
+    width: 90%;
+    height: 50vh;
+    margin: 4rem auto;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+}
+.card-plants .card-box img{
+    width: 99%;
+    height: 100%;
+    margin:0 auto;
+}
+.plants .card-plants .card-box .middle{
+position: relative;
+text-align: center;
+margin: 0 auto;
+font-size: 1rem;
+font-style: oblique;
+font-family: monospace;
+top: -60%;
+width: 50%;
+color: rgba(255, 255, 255, 0.849);
+
+}
+.card-box .middle:hover{
+opacity: 100%;
+cursor: pointer;
+text-orientation: sideways;
+transition-duration: 0.4s;
+}
+
+
+
+
+
+}
+
+
+
+
+
+/* ---------------- orientation lendscape or Computer ------------ */
+
+             @media(orientation: landscape)
+                                                {
+ 
+    /* ---------- The plants --------------- */
+
+    .plants .contianer-plant img{
+        height: 45vh;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 93%, 27% 93%, 13% 100%, 19% 90%, 0 90%);clip-path: polygon(100% 0, 100% 100%, 8% 100%, 8% 53%, 0 39%, 7% 40%, 7% 0);
+    }
+
+ /* -------   the second row of plant ------ */
+    .plants{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+    }
+    .plants .card-plants{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .card-plants .card-box{
+        height: 52vh;
+        width: 24%;
+    }
+    .plants .heading{
+        border-radius: 1rem 1rem 0 0;
+        color: white;
+        font-style: italic;
+        width: 89%;
+        padding: 0.5rem;
+        font-size:large;
+        margin:1rem auto;
+        background-color: rgba(153, 205, 50, 0.966);
+        clip-path: polygon(0% 0%, 16% 0, 17% 100%, 0 100%);
+    
+    }
+
+
+
+                                                 }
+
+
+
+/* --------- body --------- */
+
+body{
+    background-color: rgb(255, 255, 255);
+    overscroll-behavior: hidden;
+    scroll-behavior: smooth;
+}
+
+
+.header{
+    
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    
+}
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+.header .logo h1{
+    font-size: 1.2rem;
+    color: #000;
+}
+.header .logo h1 span{
+    color: rgb(138, 204, 7);
+}
+.header ul{
+    display: flex;
+}
+.header ul li a{
+    padding: 1rem;
+    color: rgb(3, 119, 221);
+    
+}
+.header ul li a:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.header .icons{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.header .icons .fa{
+    font-size: 1.6rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 5rem;
+    color: rgb(172, 6, 6);
+    
+}
+/* --------- home posistoin ----- */
+.home{
+    width: 100%;
+    text-align: center;
+    padding: 12rem 0;
+    background-image: url(../img/bak1.jpg);
+    background-size:cover;
+    background-position-y: top;
+    background-blend-mode: color-burn;
+    background-color: rgba(0, 0, 0, 0.712);
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 79% 100%, 0 89%, 0% 50%);clip-path: polygon(0 0, 100% 0, 100% 81%, 93% 100%, 0 89%, 0% 50%);clip-path: polygon(0 0, 100% 0, 100% 84%, 93% 100%, 0 90%, 0% 50%);clip-path: polygon(0 0, 100% 0, 100% 100%, 93% 100%, 0 90%, 0% 50%);clip-path: polygon(0 0, 100% 0, 100% 98%, 100% 98%, 0 90%, 0% 50%);
+    color: white;
+}
+.home h3{
+    font-size: 1rem;
+    color: white;
+    
+}
+.home h1 {
+    color: orange;
+    font-weight: bolder;
+    line-height: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home h1 span{
+    color: rgb(36, 36, 255);
+}
+.home .btn{
+    margin-top: 2rem;
+    padding:0.5rem 1rem;
+    background-color: orange;
+    border-radius: 0.5rem;
+    color: white;
+    opacity: 65%;
+    
+
+}
+.home .btn:hover{
+    background-color: rgb(29, 147, 250);
+    color: white;
+    font-weight: bolder;
+    transform: scale(1,1);
+    text-overflow: clip;
+
+}
+
+/* ------ about section ----  */
+
+.about{
+    width: 100%;
+    text-align: center;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 0;
+}
+.about h1{
+    line-height: 3rem;
+    color: yellowgreen;
+}
+.about .contianer{
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 90%; */
+    margin: 0 auto;
+}
+.about .describ{
+    margin-left: 5rem;
+    line-height: 2rem;
+    text-align: left;
+    width: 90%;
+    padding-top: 2rem;
+
+}
+.describ .btn{
+    padding: 0.5rem ;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+    margin: 0.5rem 40%;
+    
+}
+.btn:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.describ h2{
+    text-align: center;
+    line-height: 4rem;
+}
+.about .card-icon{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.card-icon .card{
+    background-color: rgb(112, 111, 111);
+    color: white;
+    width: 98%;
+    box-shadow: 2px 0px 5px rgb(146, 145, 145);
+    padding: 0.3rem;
+}
+.card-icon .card:hover{
+    transform: scale(1,1.1);
+    opacity: 90%;
+    cursor: pointer;
+    
+}
+.card .icon{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 5rem;
+    border: 2px solid rgba(238, 238, 238, 0.363);
+    
+}
+.card .icon .ma{
+    color: yellowgreen;
+    font-size: 2rem;
+
+}
+.card .star-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.star-icon .fa{
+    color: orange;
+    font-size: 0.7rem;
+    padding: 0 1px;
+}
+.card h5{ 
+    text-align: center;
+    color: white;
+}
+.describ .card-icon .card p{
+
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+
+.about .image{
+    margin-right: 10rem;
+    margin: auto;
+}
+
+ /*-------------------------- team section -------- */
+
+.teams{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+    padding: 1rem 0;
+    text-align: center;
+
+}
+.teams h1{
+    text-align: center;
+    line-height: 3rem;
+    color: yellowgreen;
+}
+.teams .sub-heading{
+    width: 80%;
+    margin: auto;
+    line-height: 2rem;
+    position: static;
+}
+.teams .card-team{
+   display:flex;
+   justify-content: space-between;
+    width: 90%;
+   margin: 0 auto;
+   border-radius: 1rem;
+   
+}
+.card-team .mian-team{
+    margin: 0  1rem;
+    background-color: rgb(112, 111, 111);
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+    padding: 0 0.5rem;
+    color: white;
+    margin-top: 5rem;
+
+}
+.card-team .mian-team:hover{
+    opacity: 90%;
+}
+
+.mian-team .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10rem;
+    background-color: antiquewhite;
+    margin: auto;
+    position: relative;
+    top: -40px;
+}
+.mian-team h5{
+    position: relative;
+    top: -30px;
+}
+.mian-team p{
+    position: relative;
+    top: -25px;
+}
+.mian-team h5 span{
+    opacity: 60%;
+    font-style: italic;
+    letter-spacing: 0.2rem;
+    color: orange;
+}
+.card-team .mian-team p{
+    width: 100%;
+    line-height: 2rem;
+}
+.mian-team .btn{
+    padding: 0.5rem ;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+.btn:hover{
+    transform: scale(1.1,1.1);
+    cursor: progress;
+    transition-duration: 0.5s;
+}
+
+.card-team .mian-team .fa{
+    float:right;
+    padding: 0.3rem;
+    font-weight: bolder;
+    font-size: larger;
+}
+.card-team .mian-team .fa:hover{
+    transform: scale(1.4,1.4);
+    cursor: pointer;
+    color: blue;
+    
+}
+
+/* ------------------- Projects ------------------- */
+
+.project{
+    width: 100%;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+.project h1{
+    text-align: center;
+    line-height: 5rem;
+}
+.project .card-pj{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-pj .pj{
+    padding: 0 0.5rem;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height:68vh;
+}
+.pj:hover{
+    transform: scale(1,1);
+    box-shadow: 4px 4px 15px rgb(200, 201, 199);
+}
+
+.pj .image{
+    position: relative;
+    height: 40vh;
+}
+
+.pj .middle{
+    position: relative;
+    text-align: center;
+    top: -12rem;
+    height: 20vh;
+    opacity: 0;
+}
+.card-pj h2{
+   
+    position: relative;
+    top: -7.5rem;
+}
+.card-pj .dsc-pj ,.know{
+ position: relative;
+ top: -7rem;
+}
+.pj .middle:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -12rem;
+    color: orangered;
+    opacity: 100%;
+    transition: 0.4s;
+    font-size: 1.5rem;
+    cursor: pointer;
+   
+}
+
+.pj .dsc-pj{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+.pj .btn{
+    padding: 0.5rem ;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin: 0.5rem  8rem;
+   
+}
+.btn:hover{
+    transform: scale(1.1,1.1);
+    cursor: progress;
+    transition-duration: 0.5s;
+}
+
+/* ------------------------ Plants ----------------- */
+
+.plants{
+    width: 100%;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+    background-color: rgb(255, 255, 255);
+}
+.plants h1{
+    text-align: center;
+    line-height: 6rem;
+}
+.plants .contianer-plant{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+}
+.content-plant{
+    padding: 0;
+    width: 54%;
+   
+}
+.content-plant h2{
+    text-align: center;
+    line-height: 3.5rem;
+    color: yellowgreen;
+}
+.content-plant p{
+    line-height: 2.5rem;
+}
+.content-plant .btn-plant{
+    width: 6rem;
+    padding: 0.5rem ;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+    margin: 1rem 35%;
+   
+}
+.btn-plant:hover{
+    transform: scale(1.1,1.1);
+    cursor: progress;
+    transition-duration: 0.5s;
+}
+
+.plants img{
+    height: 45vh;
+    
+}
+.plants .contianer-plant img:hover{
+    transform: scale(1,1.1);
+    cursor: pointer;
+    box-shadow: 4px 4px 15px rgb(200, 201, 199);
+}
+
+/* -----------the second row of plants --------- */
+
+.plants .heading{
+    border-radius: 1rem 1rem 0 0;
+    color: white;
+    font-style: italic;
+    width: 89%;
+    padding: 0.5rem;
+    font-size:large;
+    margin:1rem auto;
+    background-color: rgba(153, 205, 50, 0.966);
+    
+}
+
+.card-plants{
+    padding: 1rem;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+}
+.card-plants .card-box{
+    box-shadow: 4px 4px 15px rgb(200, 201, 199);
+    border-radius: 1rem;
+    height: 54vh;
+
+}
+.card-plants .card-box:hover{
+    transform: scale(1,1);
+    box-shadow: 10px 2px 10px rgb(200, 201, 199);
+}
+.plants .card-plants{
+   padding-top: 1rem;
+}
+.plants .card-plants .card-box .image{
+    position: relative;
+}
+.card-box .middle{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-style: oblique;
+    font-family: monospace;
+    top: -45%;
+    width: 50%;
+    color: rgba(255, 255, 255, 0.849);
+    opacity: 0;
+    
+}
+.card-box .middle:hover{
+    opacity: 100%;
+    cursor: pointer;
+    text-orientation: sideways;
+    transition-duration: 0.4s;
+}
+
+
+.card-plants .card-box .icon-social{
+    display: flex;
+    width: 99%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding:0.4rem 1rem;
+    position: relative;
+    top: -4.5rem;
+    background-color: rgba(153, 205, 50, 0.315);
+}
+.card-box.icon-social .star .prefer{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.icon-social .star{
+    color: orange;
+}
+.icon-social .prefer{
+    color: white;
+}
+.prefer .fa{
+    padding:0 0.1rem;
+}
+.card-box .icon-social .prefer .fa:hover{
+    transform: scale(1.4,1.4);
+    cursor: pointer;
+    color: blue;
+}
+.card-box .name{
+    padding:0 1rem;
+    position: relative;
+    top: -3.8rem;
+    color: orange;
+}
+.card-box .name span{
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.658);
+
+}

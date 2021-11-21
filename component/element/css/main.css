@@ -1,0 +1,27 @@
+*
+{margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;}
+.btn{cursor: pointer; border: none; padding: 5px 20px; border-radius: 10px; margin: 20px auto;}
+.btn-teal{background-color: teal;}
+.btn-green{background-color: greenyellow;}
+.btn-orage{background-color: orange;}
+
+/* table component */
+
+.table{width: 100%; margin: auto; border-spacing: 0;}
+.table th , .table td{ padding: 5px; }
+/* .table-bordered th, .table-bordered td {border: 1px solid cornflowerblue;} */
+.table-striped tr:nth-child(even){background-color: aqua;}
+
+/* Navingation bar component */
+
+.navbar{list-style:none; display: flex; margin: 0;} 
+.nav-item{padding: 10px;}
+.nav-link{text-decoration: none; color: rgb(245, 250, 247);}
+
+/* Text commpenent upper */
+.text-upper{text-transform: uppercase;}
+
+/* Color Compenent in navegatoin bar */
+
+.nav-green{background-color: rgb(6, 138, 57);}
+

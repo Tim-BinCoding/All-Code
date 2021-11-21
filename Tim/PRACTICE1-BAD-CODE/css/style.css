@@ -1,0 +1,28 @@
+/* Remove duplication of code and update it make it better */
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-left {
+    color: #fff;
+    margin-top:100px;
+    width: 90%;
+}
+
+.main-content {
+    width: 30%;
+    margin-top: 100px;
+    background: #fff;
+}
+
+.sidebar-right {
+    width: 60%;
+    background: #000;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

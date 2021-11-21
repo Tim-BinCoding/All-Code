@@ -1,0 +1,27 @@
+*{padding: 0;margin: 0; background-color: rgb(4, 131, 216);;}
+
+.contianer{
+    width: 50vh;  
+    height: 60vh;
+    background-color: white; 
+    margin:20% auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.input{background-color: rgb(235, 231, 231); border: 0; padding: 15px; margin: 10px; width: 40vh;}
+.button{width: 45vh; color: white; }
+.input:focus{outline: none;}
+.header{ 
+    background-color: white; 
+    font-weight: bolder; 
+    font-size: 20px;
+    padding: 10px;
+}
+.button:hover{text-transform: uppercase; font-weight: bolder;}
+.green{background-color: rgb(85, 141, 1);}
+.link{text-decoration: none; color: white; font-weight: bolder;}
+.link-contact{background-color: white;}
+.lost-pvt{background-color: white; padding: 10px;}
+.checkbox{background-color: white; width: 150px; padding: 10px;}
+input[type="checkbox"]{padding: 20px; margin-right: 10px; }

@@ -1,0 +1,29 @@
+
+
+.container-app {
+    margin: 0;
+    padding: 0;
+}
+
+.side-content, .header {
+    
+    color: #fff;
+    margin-top:100px;
+    width: 90%;
+}
+
+.header-left,.header-right {
+    width: 30%;
+    margin-top: 100px;
+    background: #fff;
+}
+
+.sidebar-left, .sidebar-right {
+    width: 60%;
+    background: #000;
+}
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

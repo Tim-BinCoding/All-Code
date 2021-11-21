@@ -1,0 +1,29 @@
+/* 
+link font for style text on all text in website */
+
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@700&display=swap');
+
+/* body component management */
+
+*{margin: 0; padding: 0; font-family: 'Battambang',cursive;}
+
+    /* navbar componet */
+.navbar{display: flex; list-style: none; margin: 0;}
+.nav-item{padding: 10px;}
+.nav-link{text-decoration: none; color: white; margin: 0 10px;}
+.orage{background-color: orange;}
+
+/* contianer component style */
+
+.contianer{width: 80%; padding: 10px; margin: auto;}
+.contianer-full{width: 100%; padding: 10px;}
+
+/* column coponent style  */
+
+.row{display: flex;justify-content: space-between;margin: 10px 0;}
+.col-12{width: 100%;}
+.col-6{width: 49%;}
+.col-4{width: 32%;}
+.col-3{width: 23%;}
+.col{padding: 10px; box-sizing: border-box; background-color: rgb(141, 143, 145); border-radius: 10px;}
+.col h1{margin: 0;}

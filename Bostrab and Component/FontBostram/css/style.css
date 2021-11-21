@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,300&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+    /* text-decoration: none;  */
+}
+body{
+    font-size: 60%;
+    background-color: #eee;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+a{text-decoration: none;}
+.header{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 2rem 9%;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0,0,0.1);
+
+}
+.header .logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(70, 36, 36);
+}
+.header .logo i{
+    color: orange;
+}
+.header .navbar a{
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    color: #2f1a1a;
+}
+.header .navbar a:hover{
+    color: orange;
+}
+.header .icons div{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #2f1a1a;
+    width: 3rem;
+    height: 3rem;
+    background-color: #eee;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3rem;
+
+}
+.header .icons div:hover{
+    color: white;
+    background: orange;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url(../img/banner-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15rem 0;
+}
+.home .content{
+    text-align: center;
+    
+}
+.home .content h3{
+    color: black;
+    font-size: 3rem;
+}
+.home .content h3 span{
+    color: orange;
+}
+.home .content p{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: rgb(158, 156, 156);
+}
+.home .content button{
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    background-color: orange;
+    color: white;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem 0;
+    color: #2f1a1a;
+    padding-bottom: 3rem
+}
+.heading span{
+    color: white;
+    background-color: orange;
+    padding: 0 1rem;
+    clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
+}
+
+/* ------------------ the part of feature --------- */
+
+.feature {
+    padding: 2rem 9%;
+}
+.feature .box-contianer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+.feature .box-contianer .box{
+    /* background-color:white; */
+    text-align: center;
+    box-shadow: -20px -10px 17px 1px rgb(219, 219, 219);
+    position: relative;
+    padding: 0 2rem;
+    
+}
+
+.box .image{
+    border-radius: 0 1rem; 
+    width: 100%;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    /* height: 40vh; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+.box:hover .image {
+    opacity: 0.8
+  }
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+    text-align: center;
+
+}
+.box:hover .middle {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+.box .middle .name-fruit {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+.feature .box-contianer .box p{
+    font-size: 1rem;
+    line-height: 1.2;
+    text-align: start;
+    line-height: 1.5rem;
+}
+
+.box-contianer .box button{
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 20px;
+    background-color: orange;
+    opacity: 0.8;
+}
+
+.box-contianer .box button:hover{
+    color: white;
+    cursor: pointer;
+}
+.card-ht{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 3rem;
+}
+.card-ht h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+.card-ht .cost{
+    font-weight:bold ;
+     color: black;
+    }
+.media{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 1rem;
+}
+.media .blus{
+    background-color: orange;
+    text-align: center;
+    border-radius: 10px 0 0;
+    color: white;
+}
+.blus a{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    padding: 0 1rem;
+}
+.blus:hover{
+    box-shadow: -2px -2px 5px;
+    
+}
+.box-contianer .media .social-icon{
+    display: flex;
+    text-align: center;
+    color: orange;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.social-icon .fa{padding-top: 0.5rem;}
+
+/* ------------- footer of content ------------- */
+
+footer{
+    background-color: #856f53;
+    box-shadow: 5px 0px 4px rgb(194, 193, 193);
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.footer .mian-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 5rem 9% 0.5rem 9%;
+}
+.footer .mian-box .box{
+    position: relative;
+    background-color: rgb(216, 218, 218);
+    padding-bottom: 0.5rem;
+    padding-top: 4rem;
+    box-shadow: 5px 6px 5px rgba(0, 0,0,0.1);
+    border-radius: 1rem;
+}
+.box .profile{
+    position: absolute;
+    top: -48px;;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.profile .image{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50px;
+    background-color: black;
+    position: absolute;
+    
+}
+.mian-box .box h3{
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 0 2rem;
+    text-align: center;
+}
+.mian-box .box p{
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 0 2rem;
+}
+.mian-box .box .order{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.mian-box .box .btn{
+    background-color: orange;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    color: rgb(255, 250, 250);
+}
+.box .btn:hover{
+    transform: scale(1.1);
+}
+.heading-ft{
+    color: black;
+    text-align: center;
+}
+.heading-ft h2{
+    margin: auto;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: white;
+}
+.heading-ft h2 span{color: orange;}
+
+.footer .contact-contianer{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 1rem;
+    margin-top: 2rem;
+    box-shadow: 1px 0 6px rgb(131, 131, 130);
+    padding: 0 9%;
+}
+.ft-left{
+    
+   padding-top: 1.5rem;
+}
+.ft-left .icon-social{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-left h3{
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 0 0.5rem;
+    color: orange;
+    
+}
+.ft-left .icon-social .fa{
+   font-size: 2rem;
+   line-height: 6rem;
+   font-weight: bolder;
+   padding: 0 0.5rem;
+   color: rgb(3, 3, 190);
+    
+}
+.ft-right{
+   padding-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.ft-right .infr-us{
+    width: 20%;
+    margin-left: 4rem;
+    
+}
+.infr-us h3{
+    font-weight: 10rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: orange;
+    line-height: 2.5rem;
+}
+.infr-us ul li{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+}

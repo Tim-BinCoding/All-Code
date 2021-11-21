@@ -1,0 +1,43 @@
+
+body{padding: 0;margin: 0; background-image: linear-gradient(to left, rgb(223, 223, 7), green);}
+.contianer-login{
+    width: 50vh;  
+    height: 85vh;
+    background-color: white; 
+    margin: 10% auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 30px;
+}
+.contianer-login .input{
+    background-color: white;
+    padding: 10px; 
+    width: 40vh;
+    border: 0;
+    border-bottom: 1.5px solid rgb(168, 168, 167);
+}
+.contianer-login .button{
+    width: 44vh; 
+    color: white; 
+    background-image: linear-gradient(to left, rgb(223, 223, 7), green); 
+    margin: 20px;
+    border-radius: 20px;
+}
+.contianer-login .input:focus{outline: none;}
+.contianer-login .paragraph{background-color: white; 
+    color: rgba(0, 0, 0, 0.247); 
+    width: 150px;
+    margin-top: 30px;
+}
+.contianer-login h3{background-color: white;margin-bottom: 50px;}
+.contianer-login p{background-color: white; margin-top: 30px;}
+.contianer-login .fab{background-color: white;  padding: 20px 0; font-size: 40px;}
+.contianer-login .link{background-color: white;}
+.contianer-login .scmedia{background-color: white;}
+.contianer-login .button:hover{text-transform: uppercase; background-color: #0b5334; font-weight: bolder;}
+.contianer-login .fa-google-plus{
+        color: red;
+    }
+.contianer-login .fa-twitter{color: rgb(45, 152, 253);}
+.contianer-login .fa-facebook{color: rgb(10, 62, 131);}
+

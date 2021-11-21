@@ -1,0 +1,55 @@
+body{
+    margin: 0; padding: 0;
+    font-family: sans-serif;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    background-image: url(../bg.jpg);
+    background-color: rgba(0, 0, 0, 0.445);
+    background-blend-mode: color;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 20%;
+}
+.contianer{
+    padding: 10px;
+    width: 60vh;
+    background-color: white;
+    opacity: 0.9;
+}
+.form-group{
+    padding: 10px;
+}
+.form-control{
+    box-sizing:border-box ;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(241, 238, 238);
+}
+.form-control:focus{
+    border-bottom: 2px solid rgb(148, 56, 56);
+}
+.title,h3{
+    text-align: center;
+    padding: 10px;
+}
+.btn{
+    text-align: center;
+}
+.submit{
+    border: none;
+    padding: 12px 40px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(151,253,29,1) 0%, rgba(252,176,69,1) 100%);
+}
+
+/* use for don't let they can hole up on it */
+textarea{
+    resize: none; 
+}

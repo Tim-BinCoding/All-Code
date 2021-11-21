@@ -1,0 +1,20 @@
+
+*{padding: 0;margin: 0; background-color: rgb(255, 136, 0);}
+.header{display: flex;}
+.list-item{display: flex; list-style: none;}
+.item{padding: 10px;}
+.link{text-decoration: none; color: white;}
+.contianer{
+    width: 50vh;  
+    background-color: white; 
+    margin:20% auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.input{background-color: rgb(235, 231, 231); border: 0; padding: 10px; margin: 10px; width: 40vh;}
+.button{width: 44vh; color: white; background-color: rgb(243, 115, 10);}
+p{background-color: white; color: rgba(0, 0, 0, 0.479);}
+span{background-color: white; color: rgb(216, 106, 3);}
+.input:focus{outline: none;}
+.button:hover{text-transform: uppercase; background-color: #0b5334; font-weight: bolder;}
