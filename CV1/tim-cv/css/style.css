@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Battambang:wght@100;300&family=Gowun+Batang:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    padding: 1.5rem 0;
+    background-color: #0d1028;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 9.99;
+}
+#check, #checkmenu, #cancell{display: none; color: white;}
+.checkbtn{
+    font-size: 180%;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 0.4rem;
+    width: 100%;
+    text-align: center;
+}
+nav ul{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    word-spacing: 2.5rem;
+   
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    position: relative;
+    color:white;
+    font-size: larger;
+}
+nav ul li a::before{
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: -3px;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: right,left;
+    transition: all 0.4s linear;
+}
+nav ul li a:hover:before{
+    background-color: white;
+    transform: scaleX(1);
+    width: 100%;
+}
+.fa-home{
+    margin-right: -2.5rem;
+}
+.active{
+    border-bottom: 2px solid white;
+}
+.container{
+    width: 98%;
+    margin: auto;
+}
+
+.home{
+    width: 100%;
+    margin: auto;
+    background-image: url(../images/computer.webp);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
+    background-color:  #0d1028c7;
+}
+.strong-title{
+    color: orange;
+}
+.title ,.small{
+    padding: 0 0.5rem;
+    text-align: center;
+    color: white;
+    line-height: 2.5rem;
+}
+.both-btn{
+    text-align: center;
+    width: 100%;
+}
+.btn{
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+}
+.btn-download{
+    width: 100%;
+    margin-top: 4rem;
+    text-align: center;
+}
+button{
+    color: white;
+    padding: 0.5rem 0.8rem;
+    background-color: green;
+}
+button a{
+    color: orange;
+    font-size: medium;
+}
+button:hover{
+    cursor: pointer;
+    transition: all 0.6s;
+    color: orange;
+    background-color: white;
+    border: 1px solid #0D1028;
+}
+.btn-rht{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+}
+.btn-lft{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    clip-path: polygon(5% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.text-middle{
+    width: 98%;
+    text-align: center;
+    position: relative;
+    top: -0.6rem;
+    color: white;
+}
+.hd-middle{
+    padding: 0.8rem 3rem;
+    background-color: green;
+    clip-path: polygon(100% 0, 90% 51%, 100% 100%, 0 100%, 10% 51%, 0 0);
+}
+.card{
+    display: flex;
+    margin:1rem auto;
+}
+.mian-box:hover{
+    cursor: pointer;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.image{
+    border-top: 2px solid green;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.card-cotent{
+    border-top: 2px solid green;
+    border-radius: 0.5rem;
+    padding: 1rem 3rem;
+    line-height: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* -------------- About ---------- */
+.sidebar-bg{
+    text-align: center;
+    color: white;
+    padding: 11.5rem 0;
+    background-image: url(../images/Bakg.jpg);
+    background-size: cover;
+    background-position: right;
+    background-blend-mode: color-burn;
+    background-color: #0d10289f;
+}
+.h1-title{
+    text-align: center;
+    font-size: 200%;
+    width: 95%;
+    color: green;
+    margin: auto;
+}
+.sidebar-bg .tittle, .sub-title{
+    line-height: 2.5rem;
+    margin: 0 auto;
+}
+.mian-box{
+    display: flex;
+    border-top: 2px solid orange;
+    border-radius:0.5rem;
+    padding: 0.6rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.card-text,.card-head{
+    line-height: 2rem;
+    margin-left: 1rem;
+}
+.icon-cicle{
+    border-radius: 10rem;
+}
+.icon-center{
+    text-align: center;
+    margin: 0.6rem auto;
+}
+.icon-cicle img{
+    border-radius: 10rem;
+    width: 4rem;
+    height: 4rem;
+}
+/* ----------- commit page ------ */
+.card-flex-line{
+    display: flex;
+    margin: 0.8rem 0;
+}
+.card-line{
+    width: 10rem;
+    margin: 0 0.4rem;
+    display: flex;
+    align-items: center;
+}
+.line-orang{
+    height: 6px;
+    background-color: orange;
+}
+.line-black{
+    height: 6px;
+    background-color: #0D1028;
+}
+.subject{
+    width: 3.5rem;
+    margin: 0 0.8rem;
+}
+.name-center{
+    text-align: center;
+}
+.wd-line-1{width: 1rem;} .wd-line-2{width: 2rem;} .wd-line-3{width: 3rem;} .wd-line-4{width: 4rem;} .wd-line-5{width: 5rem;}
+.wd-line-6{width: 6rem;} .wd-line-7{width: 7rem;} .wd-line-8{width: 8rem;} .wd-line-9{width: 9rem;} .wd-line-10{width: 10rem;}
+
+/* -------------- Education page ----------- */
+
+.h2-title{
+    color: orange;
+}
+.bg-dark{
+    background-color: #0D1028;
+    color: white;
+}
+.bg-green{
+    background-color: green;
+    color: white;
+}
+.bg-orange{
+    background-color: orange;
+    color: white;
+}
+.card-top{
+    margin-top: -5rem;
+}
+.btn-center{
+    width: 100%;
+    text-align: center;
+}
+.card-border{
+    border-top: 0.5rem solid orange;
+    border-left: 2rem solid orange;
+    padding: 0;
+}
+
+.h1-strong{
+    color: white;
+    padding: 0.5rem 2.5rem;
+    background-color: #0D1028;
+    clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 10% 52%, 0 0);
+}
+
+/* --------------- contact ----------- */
+
+form{
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.head-form{
+    text-align: center;
+    color: white;
+}
+.form-group{
+    color: white;
+    margin: 1rem;
+}
+.form-control{
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+}
+.form-btn{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.form-control-btn{
+    font-size: larger;
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
+    background-color: orange;
+    color: white;
+}
+.form-control-btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #0D1028;
+    transition: 1s;
+}
+textarea{
+    resize: none;
+}
+.map{
+    text-align: center;
+}
+.map iframe{
+    width: 96%;
+    border-radius: 0.4rem;
+}
+.card-ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin: 1rem auto;
+}
+.form-li a{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    background-color: white;
+}
+.card-ul .fa{
+    font-size: 150%;
+    color: green;
+}
+.head-form small{color: orange;}
+
+.form-li-text{
+    width: 70%;
+    text-align: start;
+}
+/* ------ footer -------- */
+footer{
+    background-color: #0D1028;
+}
+.card-footer{
+    display: flex;
+}
+.card-ft{
+    color: white;
+    margin: 0 auto;
+}
+.card-ft a{
+    color: white;
+}
+.card-ft small{
+    color: orange;
+}
+.ttl-ft{
+    margin: 1rem 0;
+}
+ol li{
+    line-height: 2.5rem;
+}
+.social-media{
+    margin: 1rem 0;
+}
+.social-media .fa{
+    font-size: 150%;
+    color: green;
+    margin-right: 1rem;
+}
+.h6-ft{
+    width: 100%;
+    border-top: 1px solid white;
+    color: white;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+.h4-ft{
+    line-height: 4rem;
+}
+.form-ft .fa{
+    color: #0D1028;
+    margin-left: 4px;
+}
+/* ---------------- Phone ----------- */
+@media(max-width: 650px){
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        width: 100%;
+        padding-bottom: 3rem;
+        position: fixed;
+        top: -100%;
+        left: 0;
+        transition: all 1s;
+        background-color: #0D1028;
+    }
+    nav ul li{
+        text-align: center;
+        width: 100%;
+        display: block;
+        line-height: 3rem;
+    }
+    nav ul li a{color: white;}
+    #checkmenu{
+        display: block;
+    }
+    #check:checked ~ ul{
+        top: 7%;
+    }
+    #check:checked ~ label #checkmenu{
+        display: none;
+    }
+    #check:checked ~ label #cancell{
+        display: block;
+    }
+    .home{
+        padding: 8rem 0;
+    }
+    .card{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .card-text, .text{
+        font-size: small;
+    }
+    .card-cotent{
+        width: 100%;
+        padding: 1rem;
+    }
+    .card-border{
+        border: 0;
+    }
+    /* ------------------ about ---------- */
+    .sidebar-bg .tittle, .sub-title{
+        width: 20rem;
+    }
+    .mian-box{
+        width: 100%;
+    }
+    /* ------ footer -------- */
+    .card-footer{
+        flex-wrap: wrap;
+    }
+    .card-ft{
+        width: 96%;
+        padding: 0 1rem;
+    }
+}
+/* -------- tablet ----------- */
+@media(min-width: 650px){
+    .home{
+        padding: 10rem 0;
+    }
+    .card-cotent{
+        width: 100%;
+        margin:0 auto;
+    }
+    .image{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .card-text, .text{
+        font-size: smaller;
+    }
+    .card{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    /* -------------- about teblet ---------- */
+    .mian-box{
+        margin: 0.4rem;
+        width: 48%;
+    }
+    /* --------- Education --------- */
+    /* ---------- contact ---- */
+    .form-group{
+        width: 100%;
+    }
+    .pd-form{
+        padding: 0 1.5rem 0 0;
+    }
+    /* ----- footer ----- */
+    .card-footer{
+        flex-wrap: wrap;
+    }
+    .card-ft{
+        width: 45%;
+        padding: 0 1rem;
+    }
+}
+/* ------- Destop ------------ */
+@media(min-width: 1000px){
+    .home{
+        padding: 9rem;
+    }
+    .card{
+        width: 96%;
+        flex-wrap: wrap;
+    }
+    .card-cotent{
+        width: 50%;
+        margin:0 auto;
+    }
+    .image{
+        width: 50%;
+        margin: 0 auto;
+    }
+    /* ------- about  -------- */
+    .mian-box{
+        width: 32%;
+        margin: 0.4rem;
+    }
+    .card-body{
+        padding: 0 1.4rem;
+    }
+    /* ------------ education ----------- */
+    .card-text, .text{
+        font-size: larger;
+    }
+/* ----------- contact -------- */
+.form-group{
+    width: 80%;
+    margin: 0.8rem auto;
+}
+/* ------- footer ----------- */
+    .card-ft{
+        width: 30%;
+        padding: 0 1rem;
+    }
+}
