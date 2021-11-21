@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+thead{
+    background-color: rgb(255, 127, 223);
+}
+td{
+    padding: 10px;
+}
+tfoot,thead>tr>td{
+    font-weight: bold;
+}
+.col1{
+    background-color: aqua;
+}
+.row2{
+    background: chocolate;
+}

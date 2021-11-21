@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container-tab{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+table{
+    width: 100%;
+    border-spacing: 0;
+    text-align: center;
+}
+
+.col2{
+    background-color: rgb(21, 240, 32);
+    padding: 10px;
+}
+.col{
+    background-color: rgb(15, 15, 15);
+    padding: 10px;
+    color: white;
+}
+td>div{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    padding: 10px;
+}
+td>nav{
+    background-color: rgb(185, 184, 184);
+    color: white;
+    padding: 10px;
+}
+tbody>nav{
+    padding: 10px;
+}
+.w{
+    padding: 10px;
+}

@@ -1,0 +1,22 @@
+.container{
+    width: 98%;
+    margin: auto;
+    background-color: blueviolet;
+    padding: 4px 4px 30px 4px;
+}
+table{
+    width: 100%;
+    margin: auto;
+    border-spacing: 0;
+}
+thead >tr>td{
+    background-color: rgb(221, 8, 168);
+}
+td{
+    border: 1px solid;
+    padding: 4px;
+    background-color: white;
+}
+tfoot>tr>td{
+    background-color: burlywood;
+}

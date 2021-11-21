@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+thead{
+    background-color: aquamarine;
+}
+td{
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+tfoot,thead>tr>td{
+    font-weight: bold;
+}

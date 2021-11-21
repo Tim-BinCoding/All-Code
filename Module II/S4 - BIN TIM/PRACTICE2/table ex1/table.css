@@ -1,0 +1,21 @@
+
+.container-tab{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+table{
+    width: 100%;
+    border-spacing: 0;
+}
+table>thead>tr> td{
+    background-color: rgb(48, 148, 115);
+    color: white;
+}
+td{
+    border-bottom: 1px solid;
+    padding: 8px;
+}
+table> tfoot> tr>td{
+    font-weight: bold;
+}

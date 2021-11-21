@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 98%;
+    height: 50px;
+    background-color: rgb(207, 127, 22);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container{
+    width: 98%;
+    margin: auto;
+    display: flex;
+}
+.sid-ba, .sid-debar{
+    width: 30%;
+    height: 60vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.sid-content{
+    margin: 0 10px;
+    width: 40%;
+    background-color: rgb(245, 146, 16);
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.footer{
+    width: 98%;
+    height: 50px;
+    background-color: rgb(207, 127, 22);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,27 @@
+
+*
+{
+    background-color: rgb(243, 239, 209);
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    padding: 5px;
+    background-color: white;
+    border-radius:7px;
+    border-right: 2px solid chocolate;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+th, td{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid;
+}
+th{
+    background-color: aqua;
+}
